@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="projet_vfinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/projet_vfinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/projet_vfinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Unit filename="src/geometrie/Coords.cpp" />
+		<Unit filename="src/geometrie/cadre.cpp" />
+		<Unit filename="src/geometrie/cadre.h" />
+		<Unit filename="src/geometrie/coords.h" />
+		<Unit filename="src/geometrie/matrice.cpp" />
+		<Unit filename="src/geometrie/matrice.h" />
+		<Unit filename="src/geometrie/transformation.cpp" />
+		<Unit filename="src/geometrie/transformation.h" />
+		<Unit filename="src/graphisme/couleur.cpp" />
+		<Unit filename="src/graphisme/couleur.h" />
+		<Unit filename="src/graphisme/styledessin.h" />
+		<Unit filename="src/maillage/Carre4.cpp" />
+		<Unit filename="src/maillage/Carre4.h" />
+		<Unit filename="src/maillage/LCarre.cpp" />
+		<Unit filename="src/maillage/LCarre.h" />
+		<Unit filename="src/maillage/SCarre.cpp" />
+		<Unit filename="src/maillage/SCarre.h" />
+		<Unit filename="src/maillage/Sommet.cpp" />
+		<Unit filename="src/maillage/Sommet.h" />
+		<Unit filename="src/maillage/TCarre.cpp" />
+		<Unit filename="src/maillage/TCarre.h" />
+		<Unit filename="src/maillage/forme.cpp" />
+		<Unit filename="src/maillage/forme.h" />
+		<Unit filename="src/maillage/ligne.cpp" />
+		<Unit filename="src/maillage/ligne.h" />
+		<Unit filename="src/objet/astronaute.cpp" />
+		<Unit filename="src/objet/astronaute.h" />
+		<Unit filename="src/objet/colline.cpp" />
+		<Unit filename="src/objet/colline.h" />
+		<Unit filename="src/objet/drapeau.cpp" />
+		<Unit filename="src/objet/drapeau.h" />
+		<Unit filename="src/objet/elements.cpp" />
+		<Unit filename="src/objet/elements.h" />
+		<Unit filename="src/objet/etoiles.cpp" />
+		<Unit filename="src/objet/etoiles.h" />
+		<Unit filename="src/objet/fond.cpp" />
+		<Unit filename="src/objet/fond.h" />
+		<Unit filename="src/objet/fusee.cpp" />
+		<Unit filename="src/objet/fusee.h" />
+		<Unit filename="src/objet/planete.cpp" />
+		<Unit filename="src/objet/planete.h" />
+		<Unit filename="src/scene/PlanTetris.cpp" />
+		<Unit filename="src/scene/PlanTetris.h" />
+		<Unit filename="src/scene/plan.cpp" />
+		<Unit filename="src/scene/plan.h" />
+		<Unit filename="src/scene/plan2.cpp" />
+		<Unit filename="src/scene/plan2.h" />
+		<Unit filename="src/scene/plan3.cpp" />
+		<Unit filename="src/scene/plan3.h" />
+		<Unit filename="src/scene/plan4.cpp" />
+		<Unit filename="src/scene/plan4.h" />
+		<Unit filename="src/scene/planscene.cpp" />
+		<Unit filename="src/scene/planscene.h" />
+		<Unit filename="src/svg/svgfile.cpp" />
+		<Unit filename="src/svg/svgfile.h" />
+		<Unit filename="src/util/util.cpp" />
+		<Unit filename="src/util/util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
